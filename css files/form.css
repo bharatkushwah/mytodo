@@ -1,0 +1,95 @@
+html
+{
+    padding: 0;
+}
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background-color: coral;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.inputcontainer {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 35px;
+    margin: 0;
+    padding: 10px;
+}
+
+
+input#addme {
+    width: 55%;
+    height: 33px;
+    box-shadow: 1px 1px 1px 1px blanchedalmond;
+    border: antiquewhite;
+}
+
+button#submit {
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+    background-color: darkcyan;
+    border-radius: -14;
+    display: inline;
+}
+
+ul#myul {
+    margin: 0px;
+    list-style: none;
+    background-color: #b6aaaa;
+}
+
+li {
+    background-color: #b7b1aa;
+    margin: 0;
+    border-style: outset;
+}
+
+.close
+{
+    position: absolute;
+    right: 2px;
+   background-color: rgb(129, 27, 27);
+   color: white;
+   padding: 0 16px;
+}
+
+.close:hover
+{
+    background-color: black; 
+    cursor: pointer;               
+}
+
+.span2
+{
+    position: absolute;
+    left: 0;
+}
+
+.edit
+{
+    position: absolute;
+    right: 78px;
+    background-color: rgb(129, 27, 27);
+    color: white;
+    padding: 0 16px;
+}
+
+.edit:hover
+{
+    cursor: pointer;
+    background-color: black;
+}
