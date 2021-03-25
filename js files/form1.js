@@ -30,14 +30,14 @@
       
       
       
-      var span2 = document.createElement("span");
-      span2.className ="span2";
-      var checkbox = document.createElement("input");
-      checkbox.type ="checkbox";
-      checkbox.id = "checkbox";
+      // var span2 = document.createElement("span");
+      // span2.className ="span2";
+      // var checkbox = document.createElement("input");
+      // checkbox.type ="checkbox";
+      // checkbox.id = "checkbox";
       
-      span2.appendChild(checkbox)
-      li.appendChild(span2);
+      // span2.appendChild(checkbox)
+      // li.appendChild(span2);
       
       var edit = document.createElement("SPAN");
       var eText = document.createTextNode("Edit");
